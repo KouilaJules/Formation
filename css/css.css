@@ -17,7 +17,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 20px;
-    grid-gap: 540px;
+    grid-gap: 530px;
     /*border: solid red;*/
     background-color: white; 
     width: auto; 
@@ -73,9 +73,11 @@ body{
 }
 /*LA PARTIE DE LA BAR DE MENU DU PROJET*/
 .menu-bar{
-    width: 150px;
+    width: 50px;
     background-color:rgb(23, 96, 113) ;
-    height: 100%;
+    height: 1500px;
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 /*LA PARTIE DU STATISTIQUE DE NOTRE PROJET */
@@ -83,10 +85,10 @@ body{
 .statistic{
    margin:20px 20px ;
     padding-top: 50px;
-    height: 75px;
+    height: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px;
+    grid-template-rows: 140px;
     grid-gap: 40px;
     /*border: solid red;*/    
     width: auto; 
@@ -168,20 +170,64 @@ table th{
 }
 
 table td{
-    padding-left: 10px;  
+    padding-left: 10px;
+     
     
 }
+.list-table-body1{
+    display: flex;
+}
 
-.list-table-body-round1{
-    background-color: rebeccapurple;
-  height: 50px;
-  width: 50px;
-  padding: 20px;
-  margin: 20px;
+.list-table-body1 p{
+    margin-left:10px ;
+
+}
+#list-table-body-round1{
+    background-color: red;
+  height: 15px;
+  width: 15px;  
   border-radius: 50%;
   float: left;
   shape-outside: border-box;
 }
+
+
+#list-table-body-round2{
+    background-color:rgb(105, 171, 247) ;
+  height: 15px;
+  width: 15px;  
+  border-radius: 50%;
+  float: left;
+  shape-outside: border-box;
+}
+
+#list-table-body-round3{
+    background-color:green ;
+  height: 15px;
+  width: 15px;  
+  border-radius: 50%;
+  float: left;
+  shape-outside: border-box;
+}
+
+#list-table-body-round4{
+    background-color:red ;
+  height: 15px;
+  width: 15px;  
+  border-radius: 50%;
+  float: left;
+  shape-outside: border-box;
+}
+
+#list-table-body-round5{
+    background-color:rgb(105, 171, 247) ;
+  height: 15px;
+  width: 15px;  
+  border-radius: 50%;
+  float: left;
+  shape-outside: border-box;
+}
+ 
  
 /*LA PARTIE DES CLIENTS FIDELS*/
 .client{
@@ -239,4 +285,80 @@ table td{
     width: 400px;
     right: 20px;
     padding-left: 20px;
+}
+
+/*LA PARTIE DU CALANDRIER DE NOTRE PROJET*/
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 1410px;
+  margin-left: 20px;
+  margin-top: 40px;
+  background: rgb(23, 96, 113);
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0px 20px ;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  margin: 0px 20px;
+  background: #eee;
+  
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background:rgb(23, 96, 113);
+  color: white !important
+}
+
+.calandar{
+    width: 1500px;
 }
