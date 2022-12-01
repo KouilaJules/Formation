@@ -80,6 +80,10 @@ body{
     padding-left: 5px;
 }
 
+.menu-bar div{
+    margin-bottom: 15px;
+}
+
 /*LA PARTIE DU STATISTIQUE DE NOTRE PROJET */
 
 .statistic{
@@ -107,6 +111,7 @@ body{
     background-color: white;
     box-shadow: 0px 10px 8px #888888;
     border-radius: 15px;
+
 }
 
 .fournisseur{
@@ -134,6 +139,7 @@ body{
     background-color: white;    
     margin-right: 40px;
     width: 1000px;
+    border-radius: 15px;
 }
 
 .list-produits-text{
@@ -147,6 +153,7 @@ body{
     width: 600px;
     right: 20px;
    /* margin-left:900px ;*/
+   border-radius: 15px;
 
 }
 
@@ -157,20 +164,28 @@ body{
 /*LA PARTIE DE LISTE PRODUIT*/
 table{
     width: 100%;
+    border-collapse: collapse;
+}
+table thead tr{
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+
 }
 table th{
     padding-left: 10px;    
     border-left: 0px;
     border-right: 0px;
-    border-bottom: 2px solid rgb(162, 218, 242);
-    border-top: 2px solid rgb(162, 218, 242);
+    padding-top: 5px;
+    padding-bottom: 5px;    
     text-align: left;
     
 
 }
 
-table td{
+table tbody td{
     padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
      
     
 }
@@ -285,6 +300,7 @@ table td{
     width: 400px;
     right: 20px;
     padding-left: 20px;
+    border-radius: 15px;
 }
 
 /*LA PARTIE DU CALANDRIER DE NOTRE PROJET*/
